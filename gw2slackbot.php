@@ -25,7 +25,6 @@ $wiki_response = curl_exec($wiki_call);
 curl_close($wiki_call);
 
 # HANDLE RESULTS
-
 if ($wiki_response !== FALSE) {
 	$wiki_array = json_decode($wiki_response);
 
